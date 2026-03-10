@@ -1,41 +1,41 @@
-# ⚙️ MechSolve-Core
+# MechSolve-Core
 
-MechSolve-Core is a ruthless, high-speed CLI tool built to eliminate the tedious manual calculations required in Strength of Materials and structural engineering. Stop acting like a human calculator and start engineering. 
+MechSolve-Core is a deterministic command-line utility engineered for the rapid computation of support reactions and maximum bending moments in structural engineering. It is designed to replace manual statics calculations with an automated, error-free execution model, eliminating the human factor in routine pre-analytical tasks.
 
-Unlike bloated GUI software, this tool acts as a precision script that takes your parameters and instantly spits out accurate support reactions and maximum bending moments. 
+## Key Features
+* O(1) Execution Time: Bypasses graphical interface overhead for instantaneous terminal execution.
+* Boundary Condition Analysis: Automatically resolves reaction forces (Ra, Rb) based on input parameters.
+* Peak Moment Computation: Identifies and calculates the absolute maximum bending moment (M_max) under point loads using strict static equilibrium equations: $M_{max} = \frac{F \cdot a \cdot b}{L}$.
+* Algorithmic Precision: Hardcoded mathematical logic ensures zero deviation in standard load cases.
 
-## ✨ Key Features
-* **Zero-Bullshit CLI:** Pure terminal execution. No slow interfaces, no distractions.
-* **Instant Statics:** Calculates reactions ($R_a$, $R_b$) and maximum bending moment ($M_{max}$) in milliseconds.
-* **Error Elimination:** Removes the human factor from repetitive, pre-lab routine math.
-* **Mathematical Precision:** Hardcoded deterministic logic for absolute accuracy.
+## Tech Stack
+* Core Engine: Python 3.8+
+* Interface: Command Line Interface (argparse)
 
-## 🛠 Tech Stack
-* **Core:** Python 3.8+
-* **Interface:** Command Line Interface (argparse)
+## Project Structure
+* `beam_calc.py`: The core execution script containing the mathematical models and terminal output formatting.
+* `ai_agent_promo.txt`: System instructions for autonomous distribution and network propagation.
 
-## 📂 Project Structure
-* `beam_calc.py`: The core execution engine. Handles formula mapping and terminal output.
-* `ai_agent_promo.txt`: Config for autonomous distribution.
+## Future Roadmap
+[ ] Integration of continuous beam matrices and distributed load algorithms.
+[ ] Automated PDF report compilation aligned with standard university laboratory requirements.
+[ ] Direct API integration with the VestaStack ecosystem.
 
-## 🚀 Future Roadmap
-- [ ] Integration with advanced continuous beam calculations.
-- [ ] Automated PDF report generation for university lab standards.
-- [ ] Integration with VestaStack ecosystems.
+## Author
+manikse
 
-## 👤 Author
-**manikse** Student at Slovak University of Technology (STU), Bratislava  
-Founder of VestaStack & Lume  
+Student at Slovak University of Technology (STU), Bratislava
+Founder of VestaStack & Lume
 Specializing in Automation and Informatization of Processes
 
 <p align="center">
 <a href="https://ko-fi.com/manikse">
-<img src="https://storage.ko-fi.com/cdn/kofi3.png?v=3" alt="Buy Me a Coffee at ko-fi.com" width="200">
+<img src="https://storage.ko-fi.com/cdn/kofi3.png?v=3" alt="Support the developer at ko-fi.com" width="200">
 </a>
 
-<em>If MechSolve saved your sleep before a deadline, consider supporting the developer!</em>
+<em>If MechSolve optimized your calculation workflow, consider supporting the developer.</em>
 </p>
 
 <p align="center">
-Made with ❤️ by manikse
+Engineered by manikse
 </p>
