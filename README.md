@@ -17,7 +17,7 @@ Tired of manually calculating support reactions and bending moments before every
 
 ### Installation
 Clone the repository and navigate to the directory:
-```bash
+
 git clone [https://github.com/yourusername/mechsolve-core.git](https://github.com/yourusername/mechsolve-core.git)
 cd mechsolve-core
 UsageRun the script directly from your terminal by passing the beam length (-l), force (-f), and distance to the force (-d).Bashpython beam_calc.py -l 5 -f 10 -d 2
@@ -36,7 +36,7 @@ Max Bending Moment (M_max): 12.00 kN*m
 
 ### 💻 Проєкт 2: `NextForge-API` (README.md)
 
-```markdown
+
 # ⚡️ NextForge-API
 ![Next.js](https://img.shields.io/badge/Next.js-App_Router-black.svg)
 ![Python](https://img.shields.io/badge/Python-Automation-blue.svg)
